@@ -12,7 +12,8 @@ const server = new ApolloServer({
     resolvers,
     tracing: true,
     cacheControl: true,
-    engine: false
+    engine: false,
+    introspection: true
 });
 
 server.applyMiddleware({ app });
