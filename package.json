@@ -1,4 +1,10 @@
 {
+  "name": "nidoo-apollo-ms",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
     "apollo-engine": "^1.1.2",
     "apollo-server-express": "^2.1.0",
